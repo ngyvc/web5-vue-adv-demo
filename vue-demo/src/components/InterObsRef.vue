@@ -36,6 +36,7 @@ onUnmounted(() => {
   transition:
     opacity 1s ease-out,
     transform 1s ease-out;
+  // transition-delay: 0.4s;
 
   &.visible {
     opacity: 1;
