@@ -6,6 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <section class="app">
     <nav>
       <ul>
+        <li><RouterLink to="/">Home</RouterLink></li>
         <li><RouterLink to="/inter-observer">Intersection Observer Demo</RouterLink></li>
         <li><RouterLink to="/snap-scroll">Snap Scroll Demo</RouterLink></li>
       </ul>

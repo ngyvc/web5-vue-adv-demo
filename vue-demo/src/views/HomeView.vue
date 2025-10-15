@@ -12,7 +12,7 @@ const message = ref('Welcome to the Vue 3 Advanced Demos!')
 
 <style scoped>
 .home {
-  padding: 2rem;
+  padding-top: 5rem;
   text-align: center;
 }
 </style>
