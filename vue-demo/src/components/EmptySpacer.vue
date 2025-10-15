@@ -7,10 +7,5 @@
 <style scoped>
 .empty-spacer {
   height: 10rem;
-  padding: 2rem;
-  background: #f5f5fa;
-  border-radius: 1rem;
-  max-width: 30rem;
-  margin: 2rem auto;
 }
 </style>

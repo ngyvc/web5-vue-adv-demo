@@ -1,39 +1,45 @@
 <script setup>
-import EmptySpacer from './components/EmptySpacer.vue'
-import InterObs from './components/InterObs.vue'
-import InterObsRef from './components/InterObsRef.vue'
-
-import { ref } from 'vue'
-
-const stylesOn = ref(false)
+import { RouterLink, RouterView } from 'vue-router';
 </script>
 
 <template>
-  <InterObs class="blocks" />
-  <InterObsRef class="blocks" />
-  <EmptySpacer class="blocks" />
-  <InterObs class="blocks" />
-  <InterObsRef class="blocks" />
-  <EmptySpacer class="blocks" />
-  <InterObs class="blocks" />
-  <InterObsRef class="blocks" />
-  <EmptySpacer class="blocks" />
-  <InterObs class="blocks" />
-  <InterObsRef class="blocks" />
-  <EmptySpacer class="blocks" />
-  <InterObs class="blocks" />
-  <InterObsRef class="blocks" />
-  <EmptySpacer class="blocks" />
-  <InterObs class="blocks" />
-  <InterObsRef class="blocks" />
+  <section class="app">
+    <nav>
+      <ul>
+        <li><RouterLink to="/inter-observer">Intersection Observer Demo</RouterLink></li>
+        <li><RouterLink to="/snap-scroll">Snap Scroll Demo</RouterLink></li>
+      </ul>
+    </nav>
+    <RouterView />
+  </section>
 </template>
 
-<style scoped>
-.blocks {
-  padding: 2rem;
-  background: #f5f5fa;
-  border-radius: 1rem;
-  max-width: 30rem;
-  margin: 2rem auto;
+<style lang="scss" scoped>
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #33333333;
+  padding: 1rem;
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+        background-color: #333;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 </style>
