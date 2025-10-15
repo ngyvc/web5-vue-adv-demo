@@ -1,11 +1,39 @@
-<script setup></script>
+<script setup>
+import EmptySpacer from './components/EmptySpacer.vue'
+import InterObs from './components/InterObs.vue'
+import InterObsRef from './components/InterObsRef.vue'
+
+import { ref } from 'vue'
+
+const stylesOn = ref(false)
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <InterObs class="blocks" />
+  <InterObsRef class="blocks" />
+  <EmptySpacer class="blocks" />
+  <InterObs class="blocks" />
+  <InterObsRef class="blocks" />
+  <EmptySpacer class="blocks" />
+  <InterObs class="blocks" />
+  <InterObsRef class="blocks" />
+  <EmptySpacer class="blocks" />
+  <InterObs class="blocks" />
+  <InterObsRef class="blocks" />
+  <EmptySpacer class="blocks" />
+  <InterObs class="blocks" />
+  <InterObsRef class="blocks" />
+  <EmptySpacer class="blocks" />
+  <InterObs class="blocks" />
+  <InterObsRef class="blocks" />
 </template>
 
-<style scoped></style>
+<style scoped>
+.blocks {
+  padding: 2rem;
+  background: #f5f5fa;
+  border-radius: 1rem;
+  max-width: 30rem;
+  margin: 2rem auto;
+}
+</style>
