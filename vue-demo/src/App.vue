@@ -6,9 +6,10 @@ import { RouterLink, RouterView } from 'vue-router'
   <section class="app">
     <nav>
       <ul>
-        <li><RouterLink to="/">Home</RouterLink></li>
-        <li><RouterLink to="/inter-observer">Intersection Observer Demo</RouterLink></li>
-        <li><RouterLink to="/snap-scroll">Snap Scroll Demo</RouterLink></li>
+        <!-- generate navigation links from routes -->
+        <li v-for="route in $router.options.routes" :key="route.name">
+          <RouterLink :to="route.path">{{ route.name }}</RouterLink>
+        </li>
       </ul>
     </nav>
     <RouterView />

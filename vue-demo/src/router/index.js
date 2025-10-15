@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'SnapScroll',
       component: () => import('../views/SnapScrollView.vue'),
     },
+    {
+      path: '/animation-timeline-range',
+      name: 'AnimationTimelineRange',
+      component: () => import('../views/AnimationTimelineRangeView.vue'),
+    },
   ],
 })
 
