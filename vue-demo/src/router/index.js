@@ -23,6 +23,11 @@ const router = createRouter({
       name: 'AnimationTimelineRange',
       component: () => import('../views/AnimationTimelineRangeView.vue'),
     },
+    {
+      path: '/svg-mask',
+      name: 'SvgMask',
+      component: () => import('../views/SvgMaskView.vue'),
+    },
   ],
 })
 

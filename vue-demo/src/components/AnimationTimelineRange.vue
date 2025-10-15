@@ -1,5 +1,5 @@
 <script setup>
-import EmptySpacer from './EmptySpacer.vue';
+import EmptySpacer from './EmptySpacer.vue'
 </script>
 
 <template>
