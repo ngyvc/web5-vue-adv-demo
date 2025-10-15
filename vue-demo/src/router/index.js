@@ -28,6 +28,11 @@ const router = createRouter({
       name: 'SvgMask',
       component: () => import('../views/SvgMaskView.vue'),
     },
+    {
+      path: '/blend-modes',
+      name: 'BlendModes',
+      component: () => import('../views/BlendModesView.vue'),
+    },
   ],
 })
 

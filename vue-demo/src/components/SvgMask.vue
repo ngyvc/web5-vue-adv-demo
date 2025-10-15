@@ -12,8 +12,8 @@
 .svg-mask {
   .masked-content {
     // apply the SVG mask
-    -webkit-mask-image: url('@/assets/heart.svg');
-    mask-image: url('@/assets/heart.svg');
+    -webkit-mask-image: url('@/assets/img/heart.svg');
+    mask-image: url('@/assets/img/heart.svg');
     -webkit-mask-size: contain;
     mask-size: contain;
     -webkit-mask-repeat: no-repeat;
@@ -28,8 +28,8 @@
 
     &:hover {
       // add a hover effect to scale the image slightly
-      -webkit-mask-image: url('@/assets/heart-crack.svg');
-      mask-image: url('@/assets/heart-crack.svg');
+      -webkit-mask-image: url('@/assets/img/heart-crack.svg');
+      mask-image: url('@/assets/img/heart-crack.svg');
     }
   }
 }
