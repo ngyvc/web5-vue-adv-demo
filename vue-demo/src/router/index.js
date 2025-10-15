@@ -6,18 +6,18 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: () => import('../views/HomeView.vue')
+      component: () => import('../views/HomeView.vue'),
     },
     {
       path: '/inter-observer',
       name: 'InterObserver',
-      component: () => import('../views/InterObsView.vue')
+      component: () => import('../views/InterObsView.vue'),
     },
     {
       path: '/snap-scroll',
       name: 'SnapScroll',
-      component: () => import('../views/SnapScrollView.vue')
-    }
+      component: () => import('../views/SnapScrollView.vue'),
+    },
   ],
 })
 

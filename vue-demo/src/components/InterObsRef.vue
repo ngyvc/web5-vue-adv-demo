@@ -25,6 +25,7 @@ onUnmounted(() => {
   <div ref="isVisible" class="intersecting-element">
     <h2>Intersection Observer using Ref Example</h2>
     <p>This element fades in when it comes into view.</p>
+    <!-- <img src="https://placehold.co/600x400" alt="" /> -->
   </div>
 </template>
 
@@ -39,6 +40,14 @@ onUnmounted(() => {
   &.visible {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 8px;
   }
 }
 </style>

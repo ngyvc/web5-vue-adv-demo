@@ -40,6 +40,7 @@ const stylesOn = ref(false)
 </template>
 <style lang="scss" scoped>
 .settings {
+  padding-top: 3rem;
   text-align: center;
   margin: 2rem 0;
   button {
