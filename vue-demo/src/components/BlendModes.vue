@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 const blendMode = ref('normal')
 const color = ref('linear-gradient(90deg, black, white)')
+const opacity = ref(1)
 </script>
 
 <template>
@@ -49,6 +50,19 @@ const color = ref('linear-gradient(90deg, black, white)')
         <button @click="blendMode = 'luminosity'">Luminosity</button>
       </div>
 
+      <div class="opacity-options">
+        <label for="opacity">Overlay Opacity:</label>
+        <input
+          type="range"
+          id="opacity"
+          min="0"
+          max="1"
+          step="0.01"
+          v-model="opacity"
+        />
+        <span>{{ (opacity * 100).toFixed(0) }}%</span>
+      </div>
+
       <div class="color-options">
         <label for="color">Background Color:</label>
         <select id="color" v-model="color">
@@ -87,7 +101,7 @@ const color = ref('linear-gradient(90deg, black, white)')
         <!-- black to white gradient background color -->
         <div
           class="blend-mode-color"
-          :style="{ 'background': color, 'mix-blend-mode': blendMode }"
+          :style="{ 'background': color, 'mix-blend-mode': blendMode, 'opacity': opacity }"
         ></div>
       </div>
     </div>
