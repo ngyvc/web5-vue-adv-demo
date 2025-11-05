@@ -48,6 +48,11 @@ const router = createRouter({
       name: 'ActionTrigger',
       component: () => import('../views/ActionTriggerView.vue'),
     },
+    {
+      path: '/nested/:id',
+      name: 'Nested',
+      component: () => import('../views/NestedView.vue'),
+    }
   ],
 })
 
