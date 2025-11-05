@@ -33,6 +33,11 @@ const router = createRouter({
       name: 'BlendModes',
       component: () => import('../views/BlendModesView.vue'),
     },
+    {
+      path: '/wp-load',
+      name: 'WpLoad',
+      component: () => import('../views/WpLoadView.vue'),
+    },
   ],
 })
 
