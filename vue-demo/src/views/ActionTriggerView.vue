@@ -6,6 +6,7 @@ import ActionTrigger from '../components/ActionTrigger.vue'
   <section class="action-trigger-view">
     <h1>Action Trigger View</h1>
     <ActionTrigger />
+    <ActionTrigger />
   </section>
 </template>
 
