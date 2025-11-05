@@ -9,10 +9,7 @@ function toggleActive() {
 }
 </script>
 <template>
-  <button
-    :class="['action-trigger', { active: isActive }]"
-    @click="toggleActive"
-  >
+  <button :class="['action-trigger', { active: isActive }]" @click="toggleActive">
     {{ isActive ? 'Active' : 'Inactive' }}
   </button>
   <section>

@@ -47,7 +47,7 @@ const router = createRouter({
       path: '/action-trigger',
       name: 'ActionTrigger',
       component: () => import('../views/ActionTriggerView.vue'),
-    }
+    },
   ],
 })
 
