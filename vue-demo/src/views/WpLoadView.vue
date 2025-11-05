@@ -28,9 +28,9 @@ import WpLoad from '../components/WpLoad.vue'
     <WpLoad title="software 17" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?software=17" />
     <WpLoad title="software 18" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?software=18" />
     <WpLoad title="software 19" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?software=19" /> -->
-    <!-- <WpLoad title="software 19" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?slug=perspective" /> -->
-    <!-- <WpLoad title="software 19" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?id=73" /> -->
-    <!-- <WpLoad title="software 19" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?id=73&acf_format=standard" /> -->
+    <!-- <WpLoad title="Project using slug" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?slug=perspective" /> -->
+    <!-- <WpLoad title="Project using ID" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?id=73" /> -->
+    <!-- <WpLoad title="Project using ID and acf_format standard" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?id=73&acf_format=standard" /> -->
   </section>
 </template>
 
