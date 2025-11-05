@@ -59,7 +59,12 @@ onMounted(() => {
   }
 
   details {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
+
+    &:hover {
+      background: #f0f0f0;
+    }
+
     summary {
       font-weight: bold;
       cursor: pointer;

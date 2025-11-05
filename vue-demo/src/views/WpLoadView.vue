@@ -1,9 +1,18 @@
 <script setup>
-import WpLoad from '../components/WpLoad.vue';
+import WpLoad from '../components/WpLoad.vue'
 </script>
 
 <template>
   <section class="wp-load-view">
+    <section>
+      <details>
+        <summary>Summary inside a <strong>details</strong> element</summary>
+        <p>
+          This is some additional content that is revealed when the details element is expanded.
+        </p>
+        <p>You can add more content here as needed.</p>
+      </details>
+    </section>
     <WpLoad />
     <WpLoad title="projects" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects" />
     <WpLoad title="media types" url="https://ngy.582mi.com/headless/wp-json/wp/v2/media_types" />
@@ -22,8 +31,22 @@ import WpLoad from '../components/WpLoad.vue';
   </section>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .wp-load-view {
   margin-top: 4rem;
+
+  details {
+    &:hover {
+      background: #f0f0f0;
+    }
+
+    summary {
+      // cursor: pointer;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+  }
 }
 </style>
