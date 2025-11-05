@@ -34,10 +34,20 @@ const router = createRouter({
       component: () => import('../views/BlendModesView.vue'),
     },
     {
+      path: '/props',
+      name: 'Props',
+      component: () => import('../views/PropsView.vue'),
+    },
+    {
       path: '/wp-load',
       name: 'WpLoad',
       component: () => import('../views/WpLoadView.vue'),
     },
+    {
+      path: '/action-trigger',
+      name: 'ActionTrigger',
+      component: () => import('../views/ActionTriggerView.vue'),
+    }
   ],
 })
 
