@@ -1,5 +1,5 @@
 <script setup>
-import WpLoad from '../components/WpLoad.vue'
+import WpLoad from '../components/WpLoad.vue';
 </script>
 
 <template>
@@ -7,11 +7,15 @@ import WpLoad from '../components/WpLoad.vue'
     <WpLoad />
     <WpLoad title="projects" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects" />
     <WpLoad title="media types" url="https://ngy.582mi.com/headless/wp-json/wp/v2/media_types" />
-    <WpLoad title="media types 12" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?media_types=12" />
+    <!-- <WpLoad title="media types 12" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?media_types=12" />
     <WpLoad title="media types 13" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?media_types=13" />
     <WpLoad title="media types 14" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?media_types=14" />
     <WpLoad title="media types 15" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?media_types=15" />
-    <WpLoad title="media types 16" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?media_types=16" />
+    <WpLoad title="media types 16" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?media_types=16" /> -->
+    <!-- <WpLoad title="software" url="https://ngy.582mi.com/headless/wp-json/wp/v2/software" />
+    <WpLoad title="software 17" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?software=17" />
+    <WpLoad title="software 18" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?software=18" />
+    <WpLoad title="software 19" url="https://ngy.582mi.com/headless/wp-json/wp/v2/projects?software=19" /> -->
   </section>
 </template>
 
