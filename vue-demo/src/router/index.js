@@ -8,31 +8,31 @@ const router = createRouter({
       name: 'Home',
       component: () => import('../views/HomeView.vue'),
     },
-    {
-      path: '/inter-observer',
-      name: 'InterObserver',
-      component: () => import('../views/InterObsView.vue'),
-    },
-    {
-      path: '/snap-scroll',
-      name: 'SnapScroll',
-      component: () => import('../views/SnapScrollView.vue'),
-    },
-    {
-      path: '/animation-timeline-range',
-      name: 'AnimationTimelineRange',
-      component: () => import('../views/AnimationTimelineRangeView.vue'),
-    },
-    {
-      path: '/svg-mask',
-      name: 'SvgMask',
-      component: () => import('../views/SvgMaskView.vue'),
-    },
-    {
-      path: '/blend-modes',
-      name: 'BlendModes',
-      component: () => import('../views/BlendModesView.vue'),
-    },
+    // {
+    //   path: '/inter-observer',
+    //   name: 'InterObserver',
+    //   component: () => import('../views/InterObsView.vue'),
+    // },
+    // {
+    //   path: '/snap-scroll',
+    //   name: 'SnapScroll',
+    //   component: () => import('../views/SnapScrollView.vue'),
+    // },
+    // {
+    //   path: '/animation-timeline-range',
+    //   name: 'AnimationTimelineRange',
+    //   component: () => import('../views/AnimationTimelineRangeView.vue'),
+    // },
+    // {
+    //   path: '/svg-mask',
+    //   name: 'SvgMask',
+    //   component: () => import('../views/SvgMaskView.vue'),
+    // },
+    // {
+    //   path: '/blend-modes',
+    //   name: 'BlendModes',
+    //   component: () => import('../views/BlendModesView.vue'),
+    // },
     {
       path: '/props',
       name: 'Props',
@@ -52,7 +52,12 @@ const router = createRouter({
       path: '/nested/:id',
       name: 'Nested',
       component: () => import('../views/NestedView.vue'),
-    }
+    },
+    {
+      path: '/google-maps',
+      name: 'GoogleMaps',
+      component: () => import('../views/GoogleMapsView.vue'),
+    },
   ],
 })
 
