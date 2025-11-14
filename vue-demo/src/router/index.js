@@ -63,6 +63,11 @@ const router = createRouter({
       name: 'ScrollIntoView',
       component: () => import('../views/ScrollintoviewView.vue'),
     },
+    {
+      path: '/i18n',
+      name: 'i18n',
+      component: () => import('../views/i18nView.vue'),
+    },
   ],
 })
 
