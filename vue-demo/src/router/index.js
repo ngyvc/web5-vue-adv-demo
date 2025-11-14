@@ -58,6 +58,11 @@ const router = createRouter({
       name: 'GoogleMaps',
       component: () => import('../views/GoogleMapsView.vue'),
     },
+    {
+      path: '/scroll-into-view',
+      name: 'ScrollIntoView',
+      component: () => import('../views/ScrollintoviewView.vue'),
+    },
   ],
 })
 
