@@ -4,7 +4,9 @@
   <section class="i18n-view">
     <h1>i18n</h1>
     <a href="https://vue-i18n.intlify.dev/guide/installation.html" target="_blank">Installation Guide</a>
-    <p>This is a placeholder for the i18n integration.</p>
+    <p>To install vue-i18n, run:</p>
+    <code>npm install vue-i18n@11</code>
+    <!-- <p>{{ $t('message.hello') }}</p> -->
   </section>
 </template>
 
