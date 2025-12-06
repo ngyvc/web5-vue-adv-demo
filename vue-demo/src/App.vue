@@ -22,14 +22,6 @@ watch(
 
 <template>
   <section class="app">
-    <nav>
-      <ul>
-        <!-- generate navigation links from routes -->
-        <li v-for="route in $router.options.routes" :key="route.name">
-          <RouterLink :to="route.path">{{ route.name }}</RouterLink>
-        </li>
-      </ul>
-    </nav>
     <RouterView />
   </section>
 </template>
