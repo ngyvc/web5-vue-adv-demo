@@ -19,3 +19,5 @@ pnpm-lock.yaml
 .idea/
 .vscode/
 *.local.yml
+
+package-lock.json
